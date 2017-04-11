@@ -1,0 +1,16 @@
+NAME = 'gpu'
+AUTHOR = 'Jacob Chen'
+PURPOSE = 'Benchmark the graphics library performance.'
+TIME='MEDIUM'
+TEST_CATEGORY = 'Performance'
+TEST_CLASS = "gl"
+TEST_TYPE = 'client'
+
+DOC = """
+glmark2 is a benchmark for OpenGL (ES) 2.0. It uses only the subset of the
+OpenGL 2.0 API that is compatible with OpenGL ES 2.0.
+
+https://launchpad.net/glmark2
+"""
+
+job.run_test('gpu')
